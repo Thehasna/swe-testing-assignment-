@@ -30,5 +30,17 @@ To run all unit and integration tests, open Command Prompt in the project folder
 
 
 
+\## Testing Framework Comparison: Pytest vs Unittest
 
+
+
+\*\*Pytest\*\* is a modern testing framework for Python. It is simple to use, requires less boilerplate code, and allows writing readable tests using plain Python functions. Pytest also has powerful features like fixtures, parameterized tests, and detailed failure reports.
+
+
+
+\*\*Unittest\*\* is the built-in Python testing framework. It uses a class-based structure which can be more formal and structured, but requires more code to set up each test. Unittest is good for large projects and for developers who prefer object-oriented testing.
+
+
+
+For this project, Pytest was chosen because it allows writing quick, readable tests for our calculator functions and easily runs both unit and integration tests with a single command.
 
